@@ -29,7 +29,7 @@ int main()
     {
         std::cout << "Solving with F = " << F << std::endl;
         recursiveMkdir(firstName, lastName);
-        solveTschirnhausenCubic(F, 2, 10, 0.5, firstName, lastName);
+        solveTschirnhausenCubic(F, x0, xn, deltax, firstName, lastName);
         concatFiles(firstName, lastName, std::to_string(F));
         sortResults(std::to_string(F));
         recursiveRm(lastName);
