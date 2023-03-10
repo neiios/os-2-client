@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathClient", "MathClient\MathClient.vcxproj", "{86C449FE-FED1-41D8-AB9F-4DB8FE236A9B}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupClient", "SetupClient\SetupClient.vdproj", "{C0A05AFD-5FD9-4AA7-8D46-E7760BF0E955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{86C449FE-FED1-41D8-AB9F-4DB8FE236A9B}.Release|x64.Build.0 = Release|x64
 		{86C449FE-FED1-41D8-AB9F-4DB8FE236A9B}.Release|x86.ActiveCfg = Release|Win32
 		{86C449FE-FED1-41D8-AB9F-4DB8FE236A9B}.Release|x86.Build.0 = Release|Win32
+		{C0A05AFD-5FD9-4AA7-8D46-E7760BF0E955}.Debug|x64.ActiveCfg = Debug
+		{C0A05AFD-5FD9-4AA7-8D46-E7760BF0E955}.Debug|x86.ActiveCfg = Debug
+		{C0A05AFD-5FD9-4AA7-8D46-E7760BF0E955}.Release|x64.ActiveCfg = Release
+		{C0A05AFD-5FD9-4AA7-8D46-E7760BF0E955}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

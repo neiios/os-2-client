@@ -31,11 +31,13 @@ int main()
 	for (auto& F : vecF)
 	{
 	    std::cout << "Solving with F = " << F << std::endl;
+		recursiveMkdir(firstName, lastName); // Create folders
 	    solveTschirnhausenCubic(F, x0, xn, deltax, firstName, lastName);
 		//solveTschirnhausenCubic(F, 2, 10, 0.5, firstName, lastName); // Simpler case
 
 	    concatFiles(firstName, lastName, std::to_string(F));
 	    sortResults(std::to_string(F));
+		recursiveRm(lastName); // Remove used folders
 	}
 	std::cout << "Task 4 and 5 finished.\n";
 
