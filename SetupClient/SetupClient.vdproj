@@ -37,6 +37,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -53,6 +69,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -124,7 +156,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_BBD2365BF41149448E6E375FF0974424"
             {
-            "DefaultLocation" = "8:C:\\Program Files\\OS2"
+            "DefaultLocation" = "8:C:\\Program Files\\OS2-client"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -151,7 +183,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:OS2"
         "ProductCode" = "8:{AD1A2197-6EB9-44C7-BA82-747FD61A918E}"
-        "PackageCode" = "8:{6F06BF58-4F33-471C-B329-1738FA56220F}"
+        "PackageCode" = "8:{E14BC20A-654C-4300-B300-B39893BA0A0C}"
         "UpgradeCode" = "8:{E4A30B92-E07E-4A9A-B532-4E87F574AD8D}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -164,7 +196,7 @@
         "ARPHELPLINK" = "8:"
         "Title" = "8:SetupClient"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Maurice \"Zuikis\" Jackson"
+        "ARPCONTACT" = "8:Maurice"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
